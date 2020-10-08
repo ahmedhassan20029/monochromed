@@ -1,0 +1,227 @@
+/* this fill grid*/
+* {
+  box-sizing: border-box;
+}
+
+nav, footer div, .aenean .perant, .integer, .hr, .gravida, .cover .header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+/* reset ul*/
+nav ul, .aenean .perant .links ul, .integer div:nth-child(2) ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*this style global page*/
+/*@font-face {
+
+}*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*start style website*/
+.cover {
+  background: url(../../../img/header.jpg) no-repeat center;
+  background-size: cover;
+  height: 460px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cover .header {
+  position: relative;
+  top: 5%;
+}
+.cover .header h1 {
+  font-size: 4em;
+  font-weight: 900;
+  padding-top: 80px;
+  color: #323338;
+  margin: 0;
+}
+.cover .header p {
+  margin: 0;
+  font-size: 20px;
+  color: #8e8588;
+}
+
+/*start style gravida*/
+.gravida {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.gravida > div {
+  display: flex;
+  margin-top: 20px;
+}
+.gravida > div img {
+  border-radius: 10px;
+}
+.gravida > div p {
+  font-size: 14px;
+  line-height: 2;
+  width: 80%;
+  margin-bottom: 40px;
+}
+/*start style div hr*/
+.hr {
+  height: 1px;
+  background: #dbdbdb;
+}
+
+/*start style Integer */
+.integer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.integer div:nth-child(1) {
+  width: 60%;
+}
+.integer div:nth-child(1) p {
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+.integer div:nth-child(1) img {
+  border-radius: 10px;
+  margin-bottom: 35px;
+  max-width: 100%;
+}
+.integer div:nth-child(1) p:nth-of-type(2) {
+  line-height: 1.5;
+}
+.integer div:nth-child(2) {
+  width: 35%;
+}
+.integer div:nth-child(2) p {
+  margin-top: 0;
+}
+.integer div:nth-child(2) p:nth-of-type(2) {
+  line-height: 2;
+  margin-top: 25px;
+}
+.integer div:nth-child(2) ul li {
+  line-height: 2.5;
+}
+.integer div:nth-child(2) ul li a {
+  color: red;
+}
+.integer div:nth-child(2) ul li a:hover {
+  text-decoration: none;
+}
+
+/*start style  aenean*/
+.aenean {
+  margin-top: 80px;
+  background: #121212;
+}
+.aenean .perant .articles {
+  display: flex;
+}
+.aenean .perant .articles .diva {
+  margin-top: 100px;
+  color: #ffffff66;
+}
+.aenean .perant .articles .diva .divb {
+  display: flex;
+}
+.aenean .perant .articles .diva .divb div:nth-of-type(1) {
+  margin-right: 15px;
+}
+.aenean .perant .articles .diva .divb div:nth-of-type(1) img {
+  border-radius: 7px;
+}
+.aenean .perant .articles .diva .divb div:nth-of-type(2) {
+  width: 50%;
+}
+.aenean .perant .articles .diva .divb div:nth-of-type(2) span {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.aenean .perant .articles p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+.aenean .perant .links {
+  width: 50%;
+}
+.aenean .perant .links h1 {
+  margin-top: 100px !important;
+  color: #fff;
+}
+.aenean .perant .links p {
+  color: #ffffff66;
+  line-height: 2;
+  margin-bottom: 0;
+}
+.aenean .perant .links ul li {
+  line-height: 2.5;
+}
+.aenean .perant .links ul li a {
+  color: red;
+}
+.aenean .perant .links ul li a:hover {
+  text-decoration: none;
+}
+
+/* start style footer*/
+footer {
+  background: #090909;
+  height: 120px;
+}
+footer div {
+  text-align: center;
+}
+footer div p {
+  margin: 0;
+  color: #ffffff66;
+  line-height: 7;
+}
+
+/* start style nav*/
+nav {
+  margin-top: 4%;
+}
+nav ul {
+  background: black;
+  display: inline-block;
+  border-radius: 40px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 20px 25px;
+}
+nav ul li a {
+  color: #8e8588;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* style button*/
+.gravida > div button, .integer div:nth-child(1) button {
+  color: #fff;
+  background: #1d1d1d;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.gravida h1, .integer div:nth-child(1) h1, .integer div:nth-child(2) h1, .aenean .perant .links h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+/*# sourceMappingURL=website.css.map */

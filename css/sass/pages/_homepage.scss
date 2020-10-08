@@ -1,0 +1,230 @@
+/*start style website*/
+.cover {
+    background: url(../../../img/header.jpg) no-repeat center;
+    background-size: cover;
+    height: 460px;
+    text-transform: $textTransform;
+    text-align: center;
+
+    .header {
+        @extend %container;
+        position: relative;
+        top: 5%;
+
+
+        h1 {
+            font-size: 4em;
+            font-weight: 900;
+            padding-top: 80px;
+            color: #323338;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+            font-size: 20px;
+            color: #8e8588;
+        }
+    }
+}
+
+/*start style gravida*/
+.gravida {
+    @extend %container;
+    margin-top: $marginTop;
+    margin-bottom: $marginTop;
+
+    h1 {
+        @extend %h1;
+    }
+
+    >div {
+        display: flex;
+        margin-top: 20px;
+
+        img {
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 2;
+            width: 80%;
+            margin-bottom: 40px;
+        }
+
+        button {
+            @extend %button;
+        }
+    }
+}
+
+/*start style div hr*/
+.hr {
+    @extend %container;
+    height: 1px;
+    background: #dbdbdb;
+}
+
+/*start style Integer */
+.integer {
+    margin-top: $marginTop;
+    @extend %container;
+    display: flex;
+    justify-content: space-between;
+
+    div:nth-child(1) {
+        width: 60%;
+
+        h1 {
+            @extend %h1;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 29px;
+        }
+
+        img {
+            border-radius: 10px;
+            margin-bottom: 35px;
+            max-width: 100%;
+        }
+
+        p:nth-of-type(2) {
+            line-height: 1.5;
+        }
+
+        button {
+            @extend %button;
+        }
+    }
+
+    div:nth-child(2) {
+        width: 35%;
+
+        h1 {
+            @extend %h1;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+        p:nth-of-type(2) {
+            line-height: 2;
+            margin-top: 25px;
+        }
+
+        ul {
+            @extend %listUnStyled;
+
+            li {
+                line-height: 2.5;
+
+                a {
+                    color: red;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*start style  aenean*/
+.aenean {
+    margin-top: $marginTop;
+    background: #121212;
+
+    .perant {
+        @extend %container;
+
+        .articles {
+            display: flex;
+
+            .diva {
+                margin-top: 100px;
+                color: #ffffff66;
+
+                .divb {
+                    display: flex;
+
+                    div:nth-of-type(1) {
+                        margin-right: 15px;
+
+                        img {
+                            border-radius: 7px;
+                        }
+                    }
+
+                    div:nth-of-type(2) {
+                        width: 50%;
+
+                        span {
+                            font-size: 14px;
+                            line-height: 1.5;
+                        }
+                    }
+                }
+            }
+
+            p {
+                margin-top: 5px;
+                margin-bottom: 40px;
+                font-size: 14px;
+            }
+        }
+
+        .links {
+            width: 50%;
+
+            h1 {
+                @extend %h1;
+                margin-top: 100px !important;
+                color: $colorwhite;
+            }
+
+            p {
+                color: #ffffff66;
+                line-height: 2;
+                margin-bottom: 0;
+            }
+
+            ul {
+                @extend %listUnStyled;
+
+                li {
+                    line-height: 2.5;
+
+                    a {
+                        color: red;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* start style footer*/
+footer {
+    background: #090909;
+    height: 120px;
+
+    div {
+        @extend %container;
+        text-align: center;
+
+        p {
+            margin: 0;
+            color: #ffffff66;
+            line-height: 7;
+        }
+    }
+}

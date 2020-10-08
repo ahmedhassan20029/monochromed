@@ -1,0 +1,24 @@
+/* start style nav*/
+nav {
+    @extend %container;
+    margin-top: 4%;
+    ul {
+        @extend %listUnStyled;
+        background: black;
+        display: inline-block;
+        border-radius: 40px;
+
+        li {
+            display: inline-block;
+            margin: 20px 25px;
+            a {
+                color: $colorPragLink;
+                text-decoration: none;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
